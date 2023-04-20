@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.container{
+    margin-top: 10rem;
+   padding: 5px;
+    /* background-color: azure; */
+    width: 280px;
+    /* margin-left: 40%; */
+    text-align: center;
+    
+}
+
+.inpt{
+    width: 250px;
+    padding: 10px;   
+}
+
+.inpt:hover{
+    cursor: pointer;
+}
+
+.btn{
+    /* padding: 10px 20px; */
+    width: 50px;
+    margin: 5px;
+    background-color: rgb(190, 235, 255);
+    color: rgb(63, 57, 57);
+    text-align: center;
+}
+
+.sp{
+    background-color:pink ;
+}
+
+.btn:hover{
+    cursor: pointer;
+    z-index: 2;
+    color: white;
+    background-color: skyblue;
+}
+
+.sp:hover{
+    background-color:palevioletred;
+}
+
+/* .btn1 , .btn2 , .btn17{
+    padding: 10px 14px;
+}*/
+.btn19{
+    width: 110px;
+} 
+
