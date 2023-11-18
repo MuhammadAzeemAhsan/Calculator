@@ -4,19 +4,36 @@
     margin: 0px;
 }
 
-.container{
-    margin-top: 10rem;
-   padding: 5px;
-    /* background-color: azure; */
-    width: 280px;
-    /* margin-left: 40%; */
-    text-align: center;
-    
+
+body{
+    background-color: whitesmoke;
 }
+
+.header{
+    background-color: rgb(190, 235, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.heading{
+    padding: 10px;
+    color: pink;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 10rem;
+    padding: 5px;
+    width: 280px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+}
+
 
 .inpt{
     width: 250px;
     padding: 10px;   
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .inpt:hover{
@@ -30,6 +47,8 @@
     background-color: rgb(190, 235, 255);
     color: rgb(63, 57, 57);
     text-align: center;
+    border: 2px solid black;
+    font-weight: bolder;
 }
 
 .sp{
